@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}" </head>
+    <title>Nabeeha Nuba</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
 
 <body>
     <header>
         <div class="container">
-            <h1 class="logo">
-                Nabeeha Nuba
-            </h1>
             <strong>
                 <nav>
                     <ul class="menu">
                         <li><a href="{{url_for('home')}}">Home</a></li>
-                        <li><a href="{{url_for('about')}}">About</a></li>
+                        <li><a href="{{url_for('contact')}}">Contact</a></li>
                     </ul>
                 </nav>
             </strong>
         </div>
     </header>
-    <div class="container">
+    <div class="">
         {%block content%}
         {%endblock%}
     </div>

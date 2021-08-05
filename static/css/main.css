@@ -1,65 +1,48 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #060;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
   
   /*
    * Formatting the header area
    */
   
-  header {
-    background-color: #DFB887;
-    height: 35px;
-    width: 100%;
-    opacity: .9;
-    margin-bottom: 10px;
-  }
-  
-  header h1.logo {
-    margin: 0;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
-    float: left;
-  }
-  
-  header h1.logo:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  
   /*
    * Center the body content
    */
   
   .container {
-    width: 1200px;
     margin: 0 auto;
   }
   
-  div.home {
-    padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
-    -webkit-border-radius: 6px;
-       -moz-border-radius: 6px;
-            border-radius: 6px;
+  .home-header{
+      height:300px;
+      padding: 50px;
+      text-align: center;
+      background-color:#F6F4E6 ;
+      color:#00ADB5 ;
   }
-  
-  div.about {
-    padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
-    -webkit-border-radius: 6px;
-       -moz-border-radius: 6px;
-            border-radius: 6px;
-  }
+  .home-projects{
+    height:300px;
+    padding: 50px;
+    text-align: center;
+    background-color: #DEEDF0;
+    color: #B2B8A3;
+}
+.social-media-icons{
+    height:300px;
+    padding: 50px;
+    text-align: center;
+    background-color:#F6F4E6 ;
+    color:#52575D ;
+}
   
   h2 {
     font-size: 3em;
     margin-top: 40px;
     text-align: center;
-    letter-spacing: -2px;
+    letter-spacing: 2px;
   }
   
   h3 {
@@ -67,12 +50,11 @@ body {
     font-weight: 100;
     margin-top: 30px;
     text-align: center;
-    letter-spacing: -1px;
-    color: #999;
+    letter-spacing: 1px;
   }
   
   .menu {
-    float: right;
+    float: center;
     margin-top: 8px;
   }
   
